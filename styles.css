@@ -1,0 +1,135 @@
+.timerBtn{
+    width: 80px;
+    height: 30px;
+    border: 3px solid;
+    border-radius: 12px;
+    background: #333333;
+    color: aqua;
+    cursor: pointer;
+    font-family: conolas,monospace;
+    margin: 10px;
+}
+
+#timeDisplay{
+    font-size: 75px;
+    color: aqua;
+    font-family: "conolas",monospace;
+}
+
+#timeContainer{
+    text-align: center;
+    border: 3px solid;
+    background: black;
+    border-radius: 25px;
+    margin-bottom: 150px;
+}
+
+
+
+/* /////////////////////// */
+
+#gameDiv{
+   font-family: "brush Script MT", cursive;
+   border:3px solid;
+   border-radius: 25px;
+   padding: 10px;
+   background: lightgray;
+   text-align: center; 
+   margin-bottom: 100px;
+}
+
+.choiceBtn{
+    line-height: 30px;
+    width: 150px;
+}
+
+#playerText{
+    color: blue;
+}
+
+#computerText{
+    color: red;
+}
+
+
+/* ////////////////////// */
+
+
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+#gameContainer{
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 225px;
+    margin: auto;
+}
+
+/* ////////////////////////////////////////////////// */
+
+#gameSnake{
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+#gameBoard{
+    border: 3px solid black;
+}
+
+#score{
+    font-family:"Permanent Marker",cursive ;
+    font-size: 100px;
+}
+
+#resetBtnSnake{
+    font-family:"Permanent Marker",cursive ;
+    font-size:22px ;
+    width: 100px;
+    height: 50px;
+    border: 4px solid;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
+/* /////////////////////////////////////////////////////// */
+
+
+#gamePing{
+   text-align: center;
+}
+
+#gameBoardPing{
+    border: 3px solid;
+}
+
+#scorePing{
+    font-family: "conolas",monospace;
+    font-size: 100px;
+}
+
+#resetBtnPing{
+    font-family:"Permanent Marker",cursive ;
+    font-size: 22px;
+    width: 100px;
+    height: 50px;
+    border: 4px solid;
+    border-radius: 15px;
+    cursor: pointer;
+    color: rgb(8, 12, 12);
+}
+
+

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games & Fun</title>
+    <link rel="stylesheet" href="./styles.css"> 
+</head>
+<body>
+
+ <!-- counter -->
+    <div id="timeContainer">
+        <div id="timeDisplay">00:00:00</div>
+        <button id="startBtn" class="timerBtn">Start</button>
+        <button id="pauseBtn" class="timerBtn">Stop</button>
+        <button id="resetBtn" class="timerBtn">Reset</button>
+    </div>
+ <!-- end of counter -->
+
+ <!-- rock,paper,scissors -->
+    <div id="gameDiv">
+        <h1 class="gameText" id="playerText">Player: </h1>
+        <h1 class="gameText" id="computerText">Computer: </h1>
+        <h1 class="gameText" id="resultText">Result: </h1>
+
+        <button class="choiceBtn">ROCK</button>
+        <button class="choiceBtn">PAPER</button>
+        <button class="choiceBtn">SCISSORS</button>
+    </div>
+ <!-- end of rock,paper,scissors -->
+
+ <!-- tik,tak,toe -->
+
+ <div id="gameContainer">
+    <h1>Tic Tac Toe</h1>
+    <div id="cellContainer">
+        <div cellIndex="0" class="cell"></div>
+        <div cellIndex="1" class="cell"></div>
+        <div cellIndex="2" class="cell"></div>
+        <div cellIndex="3" class="cell"></div>
+        <div cellIndex="4" class="cell"></div>
+        <div cellIndex="5" class="cell"></div>
+        <div cellIndex="6" class="cell"></div>
+        <div cellIndex="7" class="cell"></div>
+        <div cellIndex="8" class="cell"></div>
+    </div>
+    <h2 id="statusText"></h2>
+    <button id="restartBtn">Restart</button>
+ </div>
+ <!-- end of tik,tak,toe -->
+
+
+ <!-- snake -->
+ <div id="gameSnake">
+    <canvas id="gameBoard" width="500" height="300">
+
+    </canvas>
+    <div id="score">0</div>
+    <button id="resetBtnSnake">Reset</button>
+ </div>
+ <!-- end of snake -->
+
+ <!-- pingpong -->
+ <div id="gamePing">
+    <canvas id="gameBoardPing" width="500" height="300">
+    </canvas>
+    <div id="scorePing">0 : 0</div>
+    <button id="resetBtnPing">Reset</button>
+ </div>
+ <!-- end of pingpong -->
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
